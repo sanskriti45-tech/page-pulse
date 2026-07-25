@@ -178,3 +178,15 @@ h1 {
     grid-template-columns: 1fr;
   }
 }
+.site-footer {
+  text-align: center;
+  padding: 24px;
+  margin-top: 40px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.site-footer a {
+  color: inherit;
+  text-decoration: underline;
+}
