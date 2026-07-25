@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page Pulse</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Page Pulse</h1>
+      <p class="subtitle">Enter a URL to get a quick audit of its basic health and SEO signals.</p>
+    </header>
+
+    <form id="audit-form" class="audit-form">
+      <input
+        type="text"
+        id="url-input"
+        name="url"
+        placeholder="https://example.com"
+        autocomplete="off"
+        required
+      />
+      <button type="submit" id="audit-button">Audit</button>
+    </form>
+
+    <section id="status-area" class="status-area" aria-live="polite"></section>
+
+    <section id="report-area" class="report-area"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
