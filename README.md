@@ -9,6 +9,10 @@ deployed backend at `https://page-pulse-1ni2.onrender.com` (set via
 `API_BASE_URL` in `script.js`). To run fully locally instead, point
 that constant at `http://127.0.0.1:8000` and follow the setup steps
 below.
+### AI Usage
+
+AI tools were used during development to assist with code review, debugging, test generation, documentation, and deployment troubleshooting. All generated suggestions were reviewed, adapted to the project, and tested before being included in the final submission.
+
 
 ## Project structure
 
